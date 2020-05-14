@@ -41,7 +41,7 @@ testset = torchvision.datasets.CIFAR10(root='./data', train=False,
 testloader = torch.utils.data.DataLoader(testset, batch_size=4,
                                          shuffle=False, num_workers=2)
 ```
-In addition to many popular datasets, torchvision contains transforms. Scrubbing the dataset involved using use these transforms to convert our data arrays to PyTorch Tensors (which can be run on a GPU) and to normalize the data.
+In addition to many popular datasets, torchvision contains transforms. Scrubbing the dataset involved using these transforms to convert our data arrays to PyTorch Tensors (which can be run on a GPU) and to normalize the data.
 
 !["Bar chart of training and testing sample counts"](images/training-and-testing-counts-bar-chart.png)
 
