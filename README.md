@@ -62,7 +62,7 @@ As an example of the ways that machines 'view' images, we plot each rgb channel 
 
 !["Grayscaled image plot for each of the three color channels, including annotated brightnes values (Tensors) of each pixel."](images/rgb-channels-grayscale.png)*Dog image RGB channels in grayscale*
 
-PyTorch's influence function package analyzes images whose gradients significantly impact the overall outcomes of the model (model accuracy) , calculating which images were most harful and which were most helpful.
+PyTorch's influence function package analyzes images whose gradients significantly impact the overall outcomes of the model (model accuracy) , calculating which images were most harmful and which were most helpful.
 
 !["The three images found most harmful to the model"](./images/harmful-influences.png)\
 *The three images found most harmful to the model*
@@ -105,3 +105,7 @@ Yes. Yes, you are.
   - Sys
 * visualization libraries
   - Matplotlib
+
+```python
+
+```
