@@ -23,7 +23,7 @@ This project explores implementation of the PyTorch Influence Function package o
 
 !["Sample grid of images from the CIFAR-10 dataset"](./images/cifar-10-sample-images-grid.png)
 
-We load CIFAR-10 into our project notebook using PyTorch's torchvision package.
+We load CIFAR-10 (32 x 32 pixel rgb images) into our project notebook using PyTorch's torchvision package.
 
 ```
 # def load_data():
