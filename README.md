@@ -1,4 +1,4 @@
-# Module 4 Final Project
+# Influence Over Inference
 
 !["Image of an apple pie with a toasted cream topping"](./images/torched-pie.jpeg)*A torched pie*
 
