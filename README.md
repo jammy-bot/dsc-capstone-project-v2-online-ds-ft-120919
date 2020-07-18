@@ -84,7 +84,7 @@ Yes. Yes, you are.
 
 # Featured Notebooks/Analysis
 
-* [`student`: **Jupyter Notebook**](student.ipynb): containing code written for this project and comments explaining it.
+* [`influence-over-inference`: **Jupyter Notebook**](influence-over-inference.ipynb.ipynb): containing code written for this project and comments explaining it.
 
 ### Non-Technical Presentation
 
