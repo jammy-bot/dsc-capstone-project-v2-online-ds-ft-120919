@@ -3,7 +3,7 @@
 !["Image of an apple pie with a toasted cream topping"](./images/torched-pie.jpeg)*A torched pie*
 
 ## Using PyTorch to Identify Model Influences
-This project explores a machine learning package designed to identify which training data exert the most influence over a neural network models outcomes. It is based on the [nimarb](https://github.com/nimarb) reimplementation of Influence Functions from the ICML2017 best paper: [Understanding Black-box Predictions via Influence Functions](https://arxiv.org/abs/1703.04730) by Pang Wei Koh and Percy Liang. The reference implementation can be found here: [link](https://github.com/kohpangwei/influence-release).
+This project (my first with Pytorch) explores a machine learning package designed to identify which training data exert the most influence over a neural network models outcomes. It is based on the [nimarb](https://github.com/nimarb) reimplementation of Influence Functions from the ICML2017 best paper: [Understanding Black-box Predictions via Influence Functions](https://arxiv.org/abs/1703.04730) by Pang Wei Koh and Percy Liang. The reference implementation can be found here: [link](https://github.com/kohpangwei/influence-release).
 
 ## The Dataset
 
@@ -67,8 +67,6 @@ PyTorch's influence function package analyzes images whose gradients significant
 !["The three images found most harmful to the model"](./images/harmful-influences.png)\
 *The three images found most harmful to the model*
 
-FULL DISCLOSURE: This project marks my first time using PyTorch and Influence Functions.
-
 Altering weights within the model for these influential image features, can help us to see how we can improve accuracy for the related classes. Alternately, we could 'stress - test' our model, to identify how it might be undermined via minor changes (perturbations) to image data.
 
 Applications for influence functions may include the following:
@@ -99,7 +97,7 @@ Yes. Yes, you are.
   - OS
   - PyTorch:
     * pytorch-influence-functions
-    * torchvisio
+    * torchvision
     * torch.nn
     * torch.optim
   - Sys
